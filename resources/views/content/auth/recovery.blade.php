@@ -16,8 +16,8 @@
                     <h1 class="text-2xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white text-center mb-2">
                         Reset Password
                     </h1>
-                    <p class="mb-10 text-center leading-loose tracking-wide">Reset Password with ConvoSpace.</p>
-                    <div class="bg-cyan-500 text-center p-4 mb-6">
+                    <p class="mb-10 text-center leading-loose tracking-wide dark:text-white">Reset Password with ConvoSpace.</p>
+                    <div class="bg-blue-400 text-center p-4 mb-6">
                         <p>The instructions will be sent to your Email!</p>
                     </div>
                     <form class="space-y-4 md:space-y-6" action="#">
@@ -27,7 +27,7 @@
                         </div>
                         <button type="submit" class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-5 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Reset</button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center">
-                            Remember It? <a href="{{ route('login')}}" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign in</a>
+                            Remember It? <a href="{{ route('login')}}" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Sign in</a>
                         </p>
                     </form>
                 </div>

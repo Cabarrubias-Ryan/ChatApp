@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <main class="flex w-full h-full">
+    <main class="flex w-full h-full overflow-hidden">
         <header>
             @include('layout/sections/navbar/navbar')
         </header>

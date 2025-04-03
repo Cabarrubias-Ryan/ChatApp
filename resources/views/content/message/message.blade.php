@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<section class="w-full lg:w-160 h-screen bg-gray-100 dark:bg-gray-900">
+<section class="w-full lg:w-160 overflow-hidden bg-gray-100 dark:bg-gray-900">
     <div class="p-10">
         <h3><span class="font-simebold text-2xl mr-2 dark:text-white">Messages</span> <span class="text-blue-400 text-md">(12)</span></h3>
         <div class="relative mt-5 mb-2">
