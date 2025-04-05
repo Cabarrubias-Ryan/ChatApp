@@ -4,22 +4,22 @@
     </div>
     <ul class="space-y-5 flex-1">
         <li class="p-2">
-            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
+            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500 person-message">
                 <i class="fas fa-user fa-xl"></i>
             </a>
         </li>
         <li class="p-2">
-            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
+            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500 person-message">
                 <i class="fa-solid fa-address-book fa-xl"></i>
             </a>
         </li>
         <li class="p-2">
-            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
+            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500 person-message">
                 <i class="fa-solid fa-book-bookmark fa-xl "></i>
             </a>
         </li>
         <li class="p-2">
-            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
+            <a href="#" class="p-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500 person-message">
                 <i class="fa-solid fa-gear fa-xl hover:animate-spin"></i>
             </a>
         </li>
@@ -45,26 +45,26 @@
         </div> --}}
     </div>
 </nav>
-<nav class="block lg:hidden bg-blue-500 h-24 w-full text-white p-5 align-content-center fixed bottom-0 left-0 z-10 rounded-xl">
+<nav class="block lg:hidden bg-blue-500 h-16 w-full text-white p-2 align-content-center fixed bottom-0 left-0 z-10 rounded-xl">
     <ul class="space-y-5 flex-1 flex justify-between">
         <li class="p-1">
-            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
-                <i class="fas fa-user fa-xl"></i>
+            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-10 h-10 hover:text-blue-500">
+                <i class="fas fa-user fa-mb"></i>
             </a>
         </li>
         <li class="p-1">
-            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
-                <i class="fa-solid fa-address-book fa-xl"></i>
+            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-10 h-10 hover:text-blue-500">
+                <i class="fa-solid fa-address-book fa-mb"></i>
             </a>
         </li>
         <li class="p-1">
-            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
-                <i class="fa-solid fa-book-bookmark fa-xl "></i>
+            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-10 h-10 hover:text-blue-500">
+                <i class="fa-solid fa-book-bookmark fa-mb "></i>
             </a>
         </li>
         <li class="p-1">
-            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-14 h-14 hover:text-blue-500">
-                <i class="fa-solid fa-bars fa-xl"></i>
+            <a href="#" class="p-2 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-300 flex justify-center items-center w-10 h-10 hover:text-blue-500">
+                <i class="fa-solid fa-bars fa-mb"></i>
             </a>
         </li>
     </ul>

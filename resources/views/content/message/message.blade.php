@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="w-full lg:w-160 overflow-hidden bg-gray-100 dark:bg-gray-900">
-    <div class="p-10">
+    <div class="p-5">
         <h3><span class="font-simebold text-2xl mr-2 dark:text-white">Messages</span> <span class="text-blue-400 text-md">(12)</span></h3>
         <div class="relative mt-5 mb-2">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -15,135 +15,134 @@
             <input type="search" id="default-search" class="block w-full p-3 ps-10 text-xl text-gray-900 border border-gray-300 rounded-lg bg-white placeholder:text-gray-600" placeholder="Search here..." required />
         </div>
     </div>
-    <div class="h-[70%]">
-        <ul class="px-10 pb-20 md:px-10 md:pb-0 relative overflow-y-auto h-[100%] z-1 overscroll-y-contain [&::-webkit-scrollbar]:w-[0.8px] [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300">
-            <li class="pb-5">
+    <div class="h-[75%] pb-17 lg:pb-0">
+        <ul class="relative overflow-y-auto h-[100%] z-1 overscroll-y-contain [&::-webkit-scrollbar]:w-[0.8px] [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/gojo.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/gojo.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm xs:text-start">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/gojoSaturo.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/gojoSaturo.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/Nami.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/Nami.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/Nobara.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/Nobara.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/robin.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/robin.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor si consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/yuta.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/yuta.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/Lucy.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/Lucy.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/Hancock.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/Hancock.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-            <li class="pb-5">
+            <li class="py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                 <button class="cursor-pointer">
-                    <div class="flex items-center space-x-3">
+                    <div class="flex items-center justify-center space-x-3 px-6">
                         <div class="relative">
-                            <img class="size-16 rounded-full" src="{{ asset('storage/images/profile/zoro.jpeg') }}" alt="">
+                            <img class="size-14 rounded-full" src="{{ asset('storage/images/profile/zoro.jpeg') }}" alt="">
                             <span class="absolute bottom-0 right-0 block h-4 w-4 rounded-full border-2 border-white bg-green-500"></span>
                         </div>
-                        <div class="flex items-start flex-col">
-                            <h4 class="text-lg dark:text-white">Name</h4>
-                            <p class="text-gray-400 text-start">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="flex items-start flex-col text-center">
+                            <h4 class="text-mb dark:text-white">Name</h4>
+                            <p class="text-gray-400 text-sm">Lorem ipsum dolor sit consectetur</p>
                         </div>
                     </div>
                 </button>
             </li>
-
         </ul>
     </div>
 </section>
